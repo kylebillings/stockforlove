@@ -23,9 +23,7 @@ var pathObj = {
  $('#brah').lazylinepainter( 
  {
     "svgData": pathObj,
-    "strokeWidth": 3,
-    "strokeColor": "#D84243",
-    "fill-opacity": 1,
-    "fill": "#d84243"
+    "strokeWidth": 5,
+    "strokeColor": "#D84243"
 }).lazylinepainter('paint'); 
  });
