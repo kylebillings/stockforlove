@@ -51,7 +51,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background-color: #fff;
+		background-color: #D84243;
 		background-repeat: no-repeat;
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
@@ -166,7 +166,8 @@
 	input[type="reset"],
 	input[type="button"] {
       background: #D84243; /* Old browsers */
-      border: none;
+      border: 1px solid #fff;
+      border-radius: 5px;
 	  color: #fff;
 	  display: inline-block;
 	  font-size: 18px;
@@ -183,7 +184,8 @@
 	input[type="submit"]:hover,
 	input[type="reset"]:hover,
 	input[type="button"]:hover {
-		background-color: #8c1515;
+		background-color: #fff;
+		color: #D84243;
 }
 
 	.button:active,
