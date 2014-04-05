@@ -51,9 +51,9 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background-color: #D84243;
+		background-color: #fff;
 		background-repeat: no-repeat;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 14px/21px "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -64,7 +64,7 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family: "HelveticaNeue", "Georgia", "Times New Roman", serif;
+		font-family: "Nunito", "Georgia", "Times New Roman", serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
@@ -165,10 +165,10 @@
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"] {
-      background: #D84243; /* Old browsers */
-      border: 1px solid #fff;
+      background: #fff; /* Old browsers */
+      border: 1px solid #D84243;
       border-radius: 5px;
-	  color: #fff;
+	  color: #D84243;
 	  display: inline-block;
 	  font-size: 18px;
 	  font-weight: bold;
@@ -177,15 +177,15 @@
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 	.button:hover,
 	button:hover,
 	input[type="submit"]:hover,
 	input[type="reset"]:hover,
 	input[type="button"]:hover {
-		background-color: #fff;
-		color: #D84243;
+		background-color: #D84243;
+		color: #fff;
 }
 
 	.button:active,
@@ -213,6 +213,16 @@
     padding: 0;
 	}
 
+	.headerbutton {
+		border: 1px solid #fff;
+		background-color: #D84243;
+		color: #fff;
+	}
+
+	.headerbutton:hover {
+		background-color: #fff;
+		color: #D84243;
+	}
 
 /* #Forms
 ================================================== */
@@ -232,7 +242,7 @@
 		-moz-border-radius: 2px;
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
-		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 13px "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
 		width: 210px;
