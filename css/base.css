@@ -284,4 +284,7 @@
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
 
+	.image {
+		width: 100%;
+	}
 
